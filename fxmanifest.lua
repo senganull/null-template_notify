@@ -7,6 +7,10 @@ version '1.0.0'
 
 lua54 'yes' 
 
+shared_scripts {
+    '@ox_lib/init.lua'
+}
+
 client_scripts {
     'client/cl_gta.lua',
     'client/cl_qbcore.lua',
